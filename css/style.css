@@ -6,6 +6,8 @@ body{
     margin: 0;
 }
 
+/* HEADER */
+
 header {
     background-color: #1f2937;
     color: #ffffff;
@@ -15,6 +17,8 @@ header {
 
 .header-logo {
     font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
     display: flex;
     align-items: center;
 }
@@ -27,21 +31,67 @@ header {
     gap: 10px;
 }
 
-.main-section {
-    background-color: greenyellow;
+/* MAIN SECTION */
+
+.section-main {
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
+
+.main-box {
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+}
+
+.main-box-left {
+    padding: 5px;
+    width: 50%;
+}
+
+.main-box-title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.main-box-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-box-right {
+    width: 50%;
+    background-color: #6e747d;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INFO SECTION */
 
 .section-info {
     background-color: bisque;
 }
 
+/* QUOTE SECTION */
+
 .section-quote {
     background-color: brown;
 }
 
+/* CONTACT SECTION */
+
 .section-contact {
     background-color: tomato;
 }
+
+/* FOOTER */
 
 footer {
     background-color: wheat;
