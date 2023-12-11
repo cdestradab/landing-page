@@ -11,6 +11,11 @@
 
 In development
 
+### To do
+
+Add divs for any background color
+Contain the different content sections inside a div and adjust the same width for every one of them.
+
 ## Skills used
 
 HTML, CSS, Flexbox
