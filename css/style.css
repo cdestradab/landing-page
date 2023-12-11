@@ -2,8 +2,29 @@
     border: solid purple;
 }
 
+body{
+    margin: 0;
+}
+
 header {
-    background-color: aqua;
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.header-links > ul  {
+    list-style: none;
+    padding: 0;
+    color: #d9dbde;
+    display: flex;
+    gap: 10px;
 }
 
 .main-section {
