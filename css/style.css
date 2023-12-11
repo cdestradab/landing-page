@@ -63,6 +63,11 @@ header {
     color: #e5e7eb;
 }
 
+.main-box-button {
+    background-color: #3882f6;
+    color: #ffffff;
+}
+
 .main-box-right {
     width: 50%;
     background-color: #6e747d;
@@ -76,7 +81,31 @@ header {
 /* INFO SECTION */
 
 .section-info {
-    background-color: bisque;
+    background-color: #ffffff;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-illustration {
+    height: 130px;
+    border: solid 3px #3882f6;
+    border-radius: 5px;
 }
 
 /* QUOTE SECTION */
