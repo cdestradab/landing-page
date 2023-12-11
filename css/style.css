@@ -1,0 +1,27 @@
+* {
+    border: solid purple;
+}
+
+header {
+    background-color: aqua;
+}
+
+.main-section {
+    background-color: greenyellow;
+}
+
+.section-info {
+    background-color: bisque;
+}
+
+.section-quote {
+    background-color: brown;
+}
+
+.section-contact {
+    background-color: tomato;
+}
+
+footer {
+    background-color: wheat;
+}
