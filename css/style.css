@@ -4,13 +4,17 @@
 
 body{
     margin: 0;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
 }
 
 /* HEADER */
 
 header {
-    background-color: #1f2937;
+    width: 70%;
     color: #ffffff;
+    align-self: center;
     display: flex;
     justify-content: space-between;
 }
@@ -33,42 +37,40 @@ header {
 
 /* MAIN SECTION */
 
-.section-main {
-    background-color: #1f2937;
+.main-box {
+    width: 70%;
     color: #ffffff;
-    display: flex;
-    justify-content: center;
+    align-self: center;
 }
 
-.main-box {
-    max-width: 60%;
+.main-box-hero {
+    margin: 3em 0 3em;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex: auto;
 }
 
-.main-box-left {
-    padding: 5px;
+.hero-left {
     width: 50%;
 }
 
-.main-box-title {
+.hero-title {
     font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
 }
 
-.main-box-description {
+.hero-description {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.main-box-button {
+.hero-button {
     background-color: #3882f6;
     color: #ffffff;
 }
 
-.main-box-right {
+.hero-right {
     width: 50%;
     background-color: #6e747d;
     font-size: 18px;
@@ -82,16 +84,24 @@ header {
 
 .section-info {
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
-.info-title {
+.info-box {
+    width: 70%;
+}
+
+.info-box-title {
+    margin-top: 0.5em;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
 }
 
-.info-cards {
+.info-box-cards {
+    margin: 2em 0 2em;
     display: flex;
     justify-content: center;
 }
@@ -108,20 +118,43 @@ header {
     border-radius: 5px;
 }
 
+.card-description {
+    text-align: center;
+}
+
 /* QUOTE SECTION */
 
 .section-quote {
-    background-color: brown;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    width: 70%;
+}
+
+.quote-text {
+    text-align: start;
 }
 
 /* CONTACT SECTION */
 
 .section-contact {
-    background-color: tomato;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    width: 70%;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: wheat;
+    width: 70%;
+    align-self: center;
+    text-align: center;
+    color: #ffffff;
 }
