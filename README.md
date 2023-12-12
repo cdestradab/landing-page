@@ -9,12 +9,11 @@
 
 ## Status
 
-In development
+Completed following requirements.
 
 ### To do
 
-Add divs for any background color
-Contain the different content sections inside a div and adjust the same width for every one of them.
+All done!
 
 ## Skills used
 
