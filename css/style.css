@@ -2,6 +2,10 @@
     border: solid purple;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
     margin: 0;
     background-color: #1f2937;
@@ -30,6 +34,7 @@ header {
 .header-links > ul  {
     list-style: none;
     padding: 0;
+    font-size: 18px;
     color: #d9dbde;
     display: flex;
     gap: 10px;
@@ -66,8 +71,6 @@ header {
 }
 
 .hero-button {
-    background-color: #3882f6;
-    color: #ffffff;
 }
 
 .hero-right {
@@ -95,7 +98,7 @@ header {
 .info-box-title {
     margin-top: 0.5em;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1f2937;
     text-align: center;
 }
@@ -136,12 +139,19 @@ header {
 }
 
 .quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
     margin-right: 10px;
     margin-bottom: 0;
 }
 
 .quote-author {
-    margin-right: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-right: 40px;
     text-align: end;
 }
 
@@ -170,11 +180,24 @@ header {
     align-content: center;
 }
 
+.contact-button {
+    border: solid #fff;
+    flex-grow: 0;
+}
+
 /* FOOTER */
 
 footer {
     width: 70%;
     align-self: center;
     text-align: center;
+    color: #ffffff;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #3882f6;
     color: #ffffff;
 }
