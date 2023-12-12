@@ -132,10 +132,17 @@ header {
 
 .quote-box {
     width: 70%;
+    margin: 1.5em;
 }
 
 .quote-text {
-    text-align: start;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    margin-right: 10px;
+    text-align: end;
 }
 
 /* CONTACT SECTION */
